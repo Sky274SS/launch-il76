@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fon {
+  display: flex;
+  background-color: aqua;
+  background-image: url("../src/image/il-76-fon.jpg");
+  background-size:100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+.back {
+  display: flex;
+  flex-direction: row;
+}
+
+.start {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  padding-top: 45vh;
+}
+
+.start button {
+    height: 4vh;
+    border-radius: 5px;
+  }
+
+.button {
+  display: flex;
+  margin: 10px 15px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 5vw;
+}
+.button {
+  background-color: #87cefa;
+  border: 1px solid #5e90af;
+  box-shadow: 0 0 5px #87cefa;
+}
+.button:hover {
+  background-color: #b9e4ff;
+}
+.confirm {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+}
+.confirm-window {
+  flex-direction: column;
+  padding: 2rem 4rem;
+  width: 40vw;
+  height: 60vh;
+  border-radius: 20px;
+  background: rgba(172, 172, 172, 0.2);
+  box-shadow: 0 0 15px #87cefa;
+}
+.scroll {
+  overflow: scroll;
+  width: 40vw;
+  height: 57vh;
+  background: rgba(255, 254, 254, 0.7);
+  border-radius: 15px;
+}
+.scroll h2{
+  padding: 1vh 2vw;
+  text-align: center;
+}
+.scroll p{
+  padding: 1vh 2vw;
+  text-align: justify;
+  
+}
+.menu {
+  padding: 5px 5px;
+}
+.menu-header {
+  display: flex;
+  flex-direction: column;
+}
+.menu-button {
+margin: 10px 10px;
+width: 176px;
+height: 120px;
+background: rgba(172, 172, 172, 0.2);
+border-radius: 5px;
+text-align: center;
+background-size:contain;
+}
+.menu-button:hover{
+  box-shadow: 0 0 30px #000000;
+}
+.menu-info {
+  margin: 10px 10px;
+  width: 176px;
+  height: 12vh;
+  background: rgb(192, 210, 30);
+  border-radius: 5px;
+}
+.menu-info:hover{
+  background: rgb(45, 210, 30);
+}
+.first-pilot-panel {
+  background-image: url("../src/image/first-pilot-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.second-pilot-panel {
+  background-image: url("../src/image/second-pilot-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.center-panel {
+  background-image: url("../src/image/center-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.overhead-panel {
+  background-image: url("../src/image/overhead-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bottom-panel{
+  background-image: url("../src/image/bottom-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.panel {
+  display: flex;
+  width: 1000px;
+}
+.panel-first-pilot {
+  background-image: url("../src/image/first-pilot-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+}
+
+.panel-second-pilot {
+  background-image: url("../src/image/second-pilot-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  
+}
+.panel-center {
+  background-image: url("../src/image/center-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 125.45vw;
+}
+.panel-overhead {
+  background-image: url("../src/image/overhead-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 1500px;
+}
+.panel-bottom{
+  background-image: url("../src/image/bottom-panel.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 164.05vw;
+}
+.check{
+  width: 30px;
+  height: 15px;
+  background: green;
+}
+
+
